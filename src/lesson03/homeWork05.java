@@ -7,11 +7,11 @@ public class homeWork05 {
 	
 	public static void main(String args[]){
 		scan05 = new Scanner(System.in);
-		//Задаем размер квадратной матрицы из конслоли
-		System.out.print("Введите размер матрицы: ");
+		//Р—Р°РґР°РµРј СЂР°Р·РјРµСЂ РєРІР°РґСЂР°С‚РЅРѕР№ РјР°С‚СЂРёС†С‹ РёР· РєРѕРЅСЃР»РѕР»Рё
+		System.out.print("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РјР°С‚СЂРёС†С‹: ");
 		int size = scan05.nextInt();
-		System.out.print("Вы ввели: " + size);
+		System.out.print("Р’С‹ РІРІРµР»Рё: " + size);
 		scan05.close();
-		int [][] matrix = new int[size][size];
+	//	int [][] matrix = new int[size][size];
 	}
 }
