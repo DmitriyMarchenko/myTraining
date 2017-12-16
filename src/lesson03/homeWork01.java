@@ -11,7 +11,7 @@ public class homeWork01 {
 
 	public static void main(String args[]) {
 		String sc = "*";
-		System.out.print("Введите любое целое число: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ Р»СЋР±РѕРµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ");
 		scan = new Scanner(System.in);
 		int count = scan.nextInt();
 		scan.close();

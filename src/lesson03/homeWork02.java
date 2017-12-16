@@ -11,7 +11,7 @@ public class homeWork02 {
 	private static Scanner scanN;
 
 	public static void main(String args[]) {
-		System.out.print("Введите любое целое число: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ Р»СЋР±РѕРµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ");
 		scanN = new Scanner(System.in);
 		int countN = scanN.nextInt();
 		scanN.close();
@@ -27,7 +27,7 @@ public class homeWork02 {
 				}
 			}
 			if (a) {
-				System.out.println(i + " Простое число");
+				System.out.println(i + " РџСЂРѕСЃС‚РѕРµ С‡РёСЃР»Рѕ");
 			}
 		}
 	}

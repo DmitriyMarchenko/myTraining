@@ -11,11 +11,11 @@ public class homeWork03 {
 
 	public static void main(String[] args) {
 		scan03 = new Scanner(System.in);
-		System.out.println("Введите ширину строки:");
+		System.out.println("Р’РІРµРґРёС‚Рµ С€РёСЂРёРЅСѓ СЃС‚СЂРѕРєРё:");
 		int a = scan03.nextInt();
-		System.out.println("Введите высту строки:");
+		System.out.println("Р’РІРµРґРёС‚Рµ РІС‹СЃС‚Сѓ СЃС‚СЂРѕРєРё:");
 		int b = scan03.nextInt();
-		System.out.println("Вы ввели: " + a + " и " + b);
+		System.out.println("Р’С‹ РІРІРµР»Рё: " + a + " Рё " + b);
 		scan03.close();
 		String[] myS1 = new String[a];
 		String[] myS2 = new String[a];
