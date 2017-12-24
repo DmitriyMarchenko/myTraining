@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 import sun.applet.Main;
 
-public class DemoReflection implements A {
+public final class DemoReflection implements A {
 
 	private String str;
 	public int i;
