@@ -39,15 +39,15 @@ public final class DemoReflection implements A {
 
 		// Arrays.stream(fields).forEach(System.out::println);
 
-		Main main = new Main();
-		Class<? extends Main> classMain = main.getClass();
-		Method[] declaredMethods = classMain.getDeclaredMethods();
+		// Main main = new Main();
+		// Class<? extends Main> classMain = main.getClass();
+		// Method[] declaredMethods = classMain.getDeclaredMethods();
 		// Arrays.stream(declaredMethods).forEach(System.out::println);
 
 		// Class.forName("com.jdbc.driver.DriverManager");
 
-		Method testMethod = classMain.getDeclaredMethod("testMethod", String.class);
-		testMethod.setAccessible(true);
+		// Method testMethod = classMain.getDeclaredMethod("testMethod", String.class);
+		// testMethod.setAccessible(true);
 		// testMethod.invoke(main, "some string");
 
 		dr.str = "Before";
