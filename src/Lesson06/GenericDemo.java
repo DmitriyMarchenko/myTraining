@@ -1,12 +1,12 @@
 package Lesson06;
-
+/*
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.IntFunction;
 
 public class GenericDemo {
-
+	
 	public static void main(String[] args) {
 		Z<Parent> z = new Z<>(new Child());
 
@@ -53,3 +53,5 @@ class Parent {
 class Child extends Parent {
 
 }
+
+*/

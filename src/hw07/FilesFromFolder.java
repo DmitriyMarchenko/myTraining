@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class FilesFromFolder {
 
-	public void searchFile(File dir) throws IOException {
+	public static void searchFile(File dir) throws IOException {
 		if (dir.isDirectory()) {
 			File[] files = dir.listFiles();
 			for (File file : files) {

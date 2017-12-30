@@ -1,5 +1,5 @@
 package Lesson06;
-
+/*
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -69,3 +69,5 @@ public final class DemoReflection implements A {
 interface A {
 
 }
+
+*/
