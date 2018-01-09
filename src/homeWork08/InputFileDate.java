@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class InputDate {
+public class InputFileDate {
 	public static  void annotation() {
 	System.out.println("Bвeдитe строки текста.");
 	System.out.println("Bвeдитe 'exit' для завершения.");
@@ -17,7 +17,7 @@ public class InputDate {
 		boolean exit = str.equals("exit");
 		if(exit !=true) {
 			str = str + System.lineSeparator();
-			SaveData.save(str);	
+			FilesWrite.save(str);	
 			input();
 		}
 	else {
