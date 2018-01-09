@@ -11,9 +11,9 @@ public class FileRead {
 
 				System.out.print((char) i);
 			}
-		} catch (IOException ex) {
+		} catch (IOException FileReader) {
 
-			System.out.println("LoL");
+			System.out.println(FileReader.getMessage());
 		}
 	}
 }
