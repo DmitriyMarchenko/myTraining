@@ -1,5 +1,10 @@
 package homeWork08;
 
-public class TextEditor {
+import java.io.IOException;
 
+public class TextEditor {
+	public static void main(String args[]) throws IOException {
+		//InputDate.input();
+		ReadData.read();
+	}
 }
