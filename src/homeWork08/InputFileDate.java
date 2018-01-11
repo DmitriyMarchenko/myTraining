@@ -14,8 +14,8 @@ public class InputFileDate {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String str;
 		str = br.readLine();
-		boolean exit = str.equals("exit");
-		if(exit !=true) {
+		
+		if(!str.equals("exit")) {
 			str = str + System.lineSeparator();
 			FilesWrite.save(str);	
 			input();
