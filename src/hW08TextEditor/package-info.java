@@ -5,4 +5,4 @@
  * @author Marchenko  Dmitriy
  *
  */
-package homeWork08;
+package hW08TextEditor;

@@ -1,4 +1,4 @@
-package homeWork08;
+package hW08TextEditor;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -9,7 +9,7 @@ public class FileSort {
 	public static void sort() throws FileNotFoundException {
 		  String str;
 		    TreeSet<String> tSet = new TreeSet<String>();
-		    FileReader fin = new FileReader("D:\\SourceIT\\src\\homeWork08\\note.txt");
+		    FileReader fin = new FileReader("D:\\SourceIT\\src\\hW08TextEditor\\note.txt");
 		    Scanner src = new Scanner(fin);
 		    while (src.hasNextLine()) {
 		        str = src.nextLine();
